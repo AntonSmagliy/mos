@@ -408,6 +408,214 @@ header .container .adress i {
   color: #4a5667;
 }
 
+#advantages {
+  background: #ffffff;
+  padding: 70px 0px;
+}
+#advantages .wrap-adv {
+  background: #1877ba;
+  padding: 0px 20px;
+  padding-bottom: 50px;
+}
+#advantages .wrap-adv .adv-offer {
+  display: flex;
+  justify-content: space-between;
+}
+#advantages .wrap-adv .advant-item .advant-item__info h6 {
+  text-align: center;
+  font-family: "PFDinTextCondPro", sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+#advantages .wrap-adv .advant-item .advant-item__info p {
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  max-width: 175px;
+}
+
+#clients {
+  background: #f4f7fc;
+  padding: 50px 0px;
+}
+#clients h5 {
+  font-family: "PFDinTextCondPro", sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #405965;
+}
+#clients .slick-track {
+  padding: 20px 0px;
+}
+#clients .client-item {
+  border-radius: 3px;
+  max-height: 600px;
+  margin: 0px 20px;
+  outline: none;
+  padding: 30px;
+  max-width: 370px;
+  box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.2);
+}
+#clients .client-item .review-head {
+  display: flex;
+  align-items: flex-end;
+}
+#clients .client-item .review-head .review-head_img {
+  margin-right: 10px;
+}
+#clients .client-item .review-head .review-head_title h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#clients .client-item .review-head .review-head_title p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+}
+#clients .client-item .review-body {
+  margin-top: 30px;
+  position: relative;
+}
+#clients .client-item .review-body:before {
+  display: block;
+  content: "";
+  margin-bottom: 20px;
+  width: 45px;
+  height: 3px;
+  background: #1b559e;
+}
+#clients .client-item .review-body p {
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+#documents {
+  padding: 50px 0px;
+  background: #f4f7fc;
+}
+#documents h5 {
+  font-family: "PFDinTextCondPro", sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #405965;
+}
+#documents .documents_wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#documents .documents_wrap .doc_item {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  width: 49%;
+  padding-right: 20px;
+  display: flex;
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.2);
+}
+#documents .documents_wrap .doc_item .doc_img {
+  margin-right: 20px;
+}
+#documents .documents_wrap .doc_item .doc_head {
+  margin-bottom: 20px;
+  font-family: "PFDinTextCondPro", sans-serif;
+  font-size: 27px;
+  color: #1b559e;
+  font-weight: normal;
+}
+#documents .documents_wrap .doc_item .doc_body {
+  font-size: 17px;
+  color: #39424e;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+
+#check {
+  padding: 50px;
+  background: #ffffff;
+}
+#check h5 {
+  font-family: "PFDinTextCondPro", sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #405965;
+}
+#check p {
+  font-size: 17px;
+  color: #39424e;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+#check p .check-links ul {
+  margin: 0;
+  padding: 0;
+}
+
+#contacts {
+  padding: 70px 0px;
+  background: #f4f7fc;
+}
+#contacts h5 {
+  font-family: "PFDinTextCondPro", sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #405965;
+}
+#contacts .contact-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+#contacts .contact-wrap .contact-item {
+  display: flex;
+}
+#contacts .contact-wrap .contact-item .contact-item__icon {
+  margin-right: 10px;
+}
+#contacts .contact-wrap .contact-item .contact-item__text .contact-item__head {
+  font-size: 25px;
+  font-family: "PFDinTextCondPro", sans-serif;
+  font-weight: normal;
+  color: #1b559e;
+  margin-bottom: 10px;
+}
+#contacts .contact-wrap .contact-item .contact-item__text a {
+  display: block;
+  text-decoration: none;
+  color: #39424e;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  line-height: 20px;
+}
+#contacts .contact-wrap .contact-item .contact-item__text p {
+  color: #39424e;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  line-height: 20px;
+}
+
 footer {
   background: #e3e7ed;
   padding: 90px 0px;
@@ -439,13 +647,25 @@ footer .container .foot-links ul li a {
 footer .container .foot-soc div {
   margin-bottom: 20px;
   color: #39424e;
-  font-size: 15px;
+  font-size: 17px;
+  color: #39424e;
+}
+footer .container .foot-soc div a {
+  color: #39424e;
 }
 footer .container .foot-back {
   display: flex;
 }
+footer .container .foot-back .phone-ic {
+  margin-right: 10px;
+  color: #39424e;
+  font-size: 17px;
+}
 footer .container .foot-back .phones a {
   display: block;
+  font-size: 17px;
+  font-weight: normal;
+  color: #39424e;
   text-decoration: none;
 }
 footer .container .foot-back button {
@@ -454,6 +674,24 @@ footer .container .foot-back button {
   width: 265px;
   height: 60px;
   background: #f1602a;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+footer .container .foot-back p {
+  font-size: 12px;
+  font-weight: normal;
+  color: #39424e;
+  margin-bottom: 20px;
+}
+footer .container .foot-back a {
+  font-size: 12px;
+  font-weight: normal;
+  color: #39424e;
 }
 
 /*# sourceMappingURL=style.css.map */
