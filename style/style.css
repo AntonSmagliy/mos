@@ -1,14 +1,17 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .container {
-  widht: 95%;
+  width: 95%;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1170px;
 }
 
 header {
@@ -112,6 +115,19 @@ header .container .adress i {
   border-radius: 5px;
 }
 
+#ofic {
+  background-color: #f4f7fc;
+  padding-bottom: 70px;
+}
+
+#ofic .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 4px 6px -1px gray;
+          box-shadow: 0px 4px 6px -1px gray;
+}
+
 #ofic .container .left {
   max-width: 370px;
 }
@@ -205,7 +221,7 @@ header .container .adress i {
 }
 
 #ofic .container .middle .bottom {
-  padding: 60px 30px 30px 30px;
+  padding: 60px 20px 30px 20px;
   background: -webkit-gradient(linear, left top, right bottom, from(#1f82c1), to(#44bce4));
   background: linear-gradient(to bottom right, #1f82c1, #44bce4);
 }
@@ -228,10 +244,323 @@ header .container .adress i {
   color: #beedfc;
 }
 
-#ofic .container .middle .bottom .disc span {
+#ofic .container .middle .bottom .disc div {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   font-family: 'PFDinTextCondPro';
-  font-size: 35px;
+  font-size: 30px;
   color: #ffffff;
   line-height: 30px;
+  padding-left: 20px;
+}
+
+#ofic .container .middle .bottom span {
+  display: block;
+  font-family: 'Open Sans';
+  font-size: 17px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 0 20px;
+}
+
+#ofic .container .right {
+  max-width: 400px;
+  width: 400px;
+  background-image: url(../img/rifon.png);
+  background-size: cover;
+  padding: 30px 30px 20px 30px;
+}
+
+#ofic .container .right p {
+  font-size: 30px;
+  font-family: 'PFDinTextCondPro';
+  line-height: 30px;
+  color: #beedfc;
+  margin-bottom: 65px;
+}
+
+#ofic .container .right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#ofic .container .right ul li {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  color: #ffffff;
+  width: 50%;
+  margin-bottom: 10px;
+  padding-left: 23px;
+}
+
+#kto {
+  padding: 55px 0;
+}
+
+#kto .container .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#schet {
+  background-color: #d4d7db;
+  padding: 40px 0 75px 0;
+}
+
+#schet .container h4 {
+  font-family: 'PFDinTextCondPro';
+  font-size: 40px;
+  color: #405965;
+  text-align: center;
+}
+
+#schet .container .lica {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 2px 8px 0px gray;
+          box-shadow: 0px 2px 8px 0px gray;
+  border-radius: 8px;
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+
+#schet .container .lica__item {
+  width: 33.33333%;
+  text-align: center;
+  font-family: 'PFDinTextCondPro';
+  font-size: 18px;
+  line-height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#d8d8d8));
+  background: linear-gradient(to bottom, #efefef, #d8d8d8);
+}
+
+#schet .container .lica__item:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+#schet .container .lica__item:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#schet .container .lica__item-active {
+  color: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#44bde5), to(#38a9d9));
+  background: linear-gradient(to bottom, #44bde5, #38a9d9);
+}
+
+#schet .container .prov-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#schet .container .prov-list__item {
+  padding: 0 20px 26px 20px;
+  background-color: #fff;
+  max-width: 271px;
+  border-radius: 8px;
+}
+
+#schet .container .prov-list__item .image {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+#schet .container .prov-list__item .image .fon {
+  display: block;
+  margin: 0 auto;
+}
+
+#schet .container .prov-list__item .image .cardImage {
+  position: absolute;
+  left: 50%;
+  top: 70px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#schet .container .prov-list__item .sch {
+  color: #1b559e;
+  font-family: 'PFDinTextCondPro';
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#schet .container .prov-list__item a.chto {
+  display: block;
+  font-family: 'PFDinDisplayPro';
+  font-size: 15px;
+  color: #4c4c4c;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#schet .container .prov-list__item .price {
+  font-family: 'PFDinTextCondPro';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  font-size: 27px;
+}
+
+#schet .container .prov-list__item .price__old {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+  width: 30%;
+  background: -webkit-gradient(linear, left top, right bottom, from(#38bef4), to(#147ea8));
+  background: linear-gradient(to bottom right, #38bef4, #147ea8);
+}
+
+#schet .container .prov-list__item .price__old p {
+  position: relative;
+}
+
+#schet .container .prov-list__item .price__old p::before {
+  content: '';
+  display: block;
+  width: 115%;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+#schet .container .prov-list__item .price__new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+  color: #1b559e;
+  background: -webkit-gradient(linear, left top, right bottom, from(#e1e7ee), to(#bfc4cb));
+  background: linear-gradient(to bottom right, #e1e7ee, #bfc4cb);
+}
+
+#schet .container .prov-list__item .order {
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  color: #ffffff;
+  line-height: 55px;
+  font-family: 'Myriad Pro';
+  font-size: 17px;
+  background-color: #f15a22;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 13px;
+}
+
+#schet .container .prov-list__item .order-lgot {
+  border-radius: 5px;
+  padding: 15px;
+  font-weight: 700;
+  height: 55px;
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: 'Myriad Pro';
+  font-size: 17px;
+  background-color: #3baedc;
+  text-align: center;
+}
+
+#schet .container .prov-list__item .order-lgot span {
+  font-size: 11px;
+  color: #065070;
+  display: block;
+}
+
+#gallery {
+  padding: 90px 0 125px 0;
+}
+
+#gallery .container h4 {
+  font-family: 'PFDinTextCondPro';
+  font-size: 40px;
+  text-align: center;
+  color: #405965;
+  margin-bottom: 55px;
+}
+
+#gallery .container .gallery-wrapper .gallery-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#faq {
+  background-color: #f4f7fc;
+}
+
+#faq .container h4 {
+  font-family: 'PFDinTextCondPro';
+  font-size: 40px;
+  text-align: center;
+  color: #405965;
+  margin-bottom: 32px;
+}
+
+#faq .container .faq-list__item-visible {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#faq .container .faq-list__item-visible .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#faq .container .faq-list__item-visible .right p {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 700;
+  color: #4a5667;
 }
 /*# sourceMappingURL=style.css.map */
