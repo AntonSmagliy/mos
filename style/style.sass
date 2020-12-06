@@ -1,16 +1,12 @@
-*
-    box-sizing: border-box
-    margin: 0
-    padding: 0 
-.container
-    widht: 95%
-    margin: 0 auto
-    max-width: 1170px
 h1, h2, h3, h4, h5, h6
     margin: 0
     padding: 0
 *
     box-sizing: border-box
+.container
+    width: 95%
+    margin: 0 auto
+    max-width: 1170px
 header
     background-color: #5b6778
     color: #cccccc
@@ -67,7 +63,11 @@ header
                 border-radius: 5px
 
 #ofic
+    background-color: #f4f7fc
+    padding-bottom: 70px
     .container
+        display: flex
+        box-shadow: 0px 4px 6px -1px gray
         .left
             max-width: 370px
             .top
@@ -128,7 +128,7 @@ header
                     background-color: #f15a22
                     border-radius: 5px
             .bottom
-                padding: 60px 30px 30px 30px
+                padding: 60px 20px 30px 20px
                 background: linear-gradient(to bottom right, #1f82c1,   #44bce4)
                 .disc 
                     display: flex 
@@ -138,13 +138,219 @@ header
                         font-family: 'PFDinTextCondPro'
                         font-size: 113px
                         color: #beedfc
-                    span
+                    div
+                        display: block
+                        width: fit-content
                         font-family: 'PFDinTextCondPro'
-                        font-size: 35px
+                        font-size: 30px
                         color: #ffffff
                         line-height: 30px
+                        padding-left: 20px
+                span
+                    display: block
+                    font-family: 'Open Sans'
+                    font-size: 17px
+                    line-height: 22px
+                    color: #ffffff
+                    padding: 0 20px
+        .right
+            max-width: 400px
+            width: 400px
+            background-image: url(../img/rifon.png)
+            background-size: cover
+            padding: 30px 30px 20px 30px
+            p
+                font-size: 30px
+                font-family: 'PFDinTextCondPro'
+                line-height: 30px
+                color: #beedfc
+                margin-bottom: 65px
+            ul
+                display: flex
+                flex-wrap: wrap
+                li
+                    font-family: 'Open Sans'
+                    font-size: 15px
+                    color: #ffffff
+                    width: 50%
+                    margin-bottom: 10px
+                    padding-left: 23px
 
+#kto
+    padding: 55px 0
+    .container
+        .list
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .item
 
+#schet
+    background-color: #d4d7db
+    padding: 40px 0 75px 0
+    .container  
+        h4
+            font-family: 'PFDinTextCondPro'
+            font-size: 40px
+            color: #405965
+            text-align: center
+        .lica
+            display: flex
+            box-shadow: 0px 2px 8px 0px gray
+            border-radius: 8px
+            margin-top: 35px
+            margin-bottom: 45px
+            &__item
+                width: 33.33333%
+                text-align: center
+                font-family: 'PFDinTextCondPro'
+                font-size: 18px
+                line-height: 50px
+                background: linear-gradient(to bottom, #efefef, #d8d8d8)
+                &:first-child
+                    // box-shadow: -1px 2px 8px 0px gray
+                    border-top-left-radius: 8px
+                    border-bottom-left-radius: 8px
+                &:last-child
+                    // box-shadow: 8px 2px 8px 0px gray
+                    border-top-right-radius: 8px
+                    border-bottom-right-radius: 8px
+                &-active
+                    color: #ffffff
+                    background: linear-gradient(to bottom, #44bde5, #38a9d9)
+        .prov
+            &-list
+                display: flex
+                justify-content: space-between
+                &__item
+                    padding: 0 20px 26px 20px
+                    background-color: #fff
+                    max-width: 271px
+                    border-radius: 8px
+                    .image
+                        position: relative
+                        margin-bottom: 60px
+                        .fon
+                            display: block
+                            margin: 0 auto
+                        .cardImage
+                            position: absolute
+                            left: 50%
+                            top: 70px
+                            transform: translateX(-50%)
+                    .sch
+                        color: #1b559e
+                        font-family: 'PFDinTextCondPro'
+                        font-size: 23px
+                        text-align: center
+                        margin-bottom: 15px
+                    a.chto
+                        display: block
+                        font-family: 'PFDinDisplayPro'
+                        font-size: 15px
+                        color: #4c4c4c
+                        text-align: center
+                        margin-bottom: 25px
+                    .price
+                        font-family: 'PFDinTextCondPro'
+                        display: flex
+                        height: 50px
+                        font-size: 27px
+                        &__old
+                            display: flex
+                            align-items: center
+                            justify-content: center
+                            color: #ffffff
+                            width: 30%
+                            background: linear-gradient(to bottom right, #38bef4, #147ea8)
+                            p
+                                position: relative
+                                &::before
+                                    content: ''
+                                    display: block
+                                    width: 115%
+                                    height: 3px
+                                    background-color: black
+                                    position: absolute
+                                    left: 0
+                                    top: 50%
+                                    transform: rotate(-30deg)
+                        &__new
+                            display: flex
+                            align-items: center
+                            justify-content: center
+                            width: 70%
+                            color: #1b559e
+                            background: linear-gradient(to bottom right, #e1e7ee, #bfc4cb)
+                    .order
+                        display: block
+                        text-decoration: none
+                        margin: 0 auto
+                        color: #ffffff
+                        line-height: 55px
+                        font-family: 'Myriad Pro'
+                        font-size: 17px
+                        background-color: #f15a22
+                        text-align: center
+                        font-weight: 700
+                        border-radius: 5px
+                        margin-top: 20px
+                        margin-bottom: 13px
+                    .order-lgot
+                        border-radius: 5px
+                        padding: 15px
+                        font-weight: 700
+                        height: 55px
+                        display: block
+                        text-decoration: none
+                        margin: 0 auto
+                        color: #ffffff
+                        font-family: 'Myriad Pro'
+                        font-size: 17px
+                        background-color: #3baedc
+                        text-align: center
+                        span
+                            font-size: 11px
+                            color: #065070
+                            display: block
+
+#gallery
+    padding: 90px 0 125px 0
+    .container
+        h4
+            font-family: 'PFDinTextCondPro'
+            font-size: 40px
+            text-align: center
+            color: #405965
+            margin-bottom: 55px
+        .gallery-wrapper
+            .gallery-slider
+                display: flex
+                justify-content: space-between
+                &__item
+
+#faq
+    background-color: #f4f7fc
+    .container
+        h4
+            font-family: 'PFDinTextCondPro'
+            font-size: 40px
+            text-align: center
+            color: #405965
+            margin-bottom: 32px
+        .faq-list
+            &__item
+                &-visible
+                    display: flex
+                    justify-content: space-between
+                    .left
+                    .right
+                        display: flex
+                        p
+                            font-family: 'Open Sans'
+                            font-size: 20px
+                            font-weight: 700
+                            color: #4a5667
 
 
 //________________________________________________________
@@ -192,9 +398,3 @@ footer
                 width: 265px
                 height: 60px
                 background: #f1602a
-
-
-
-
-
-
