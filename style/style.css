@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -8,7 +7,16 @@
 .container {
   widht: 95%;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1170px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 header {
@@ -17,94 +25,60 @@ header {
   padding: 15px 0;
   font-size: 16px;
 }
-
 header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
-
 header .container .phone i {
   margin-right: 10px;
 }
-
 header .container .phone a {
   color: #cccccc;
   text-decoration: none;
   display: inline-block;
 }
-
 header .container .phone a:first-child {
   margin-right: 10px;
 }
-
 header .container .soc-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 header .container .soc-links__item {
   margin-right: 10px;
 }
-
 header .container .soc-links__item:last-child {
   margin-right: 0;
 }
-
 header .container .adress {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 header .container .adress i {
   margin-right: 10px;
 }
 
 #menu {
   padding: 10px 0;
-  -webkit-box-shadow: 0 6px 14px -8px gray;
-          box-shadow: 0 6px 14px -8px gray;
+  box-shadow: 0 6px 14px -8px gray;
 }
-
 #menu .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
-
 #menu .container .menu-list {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 #menu .container .menu-list li a {
   display: block;
   padding: 10px 10px;
   text-decoration: none;
   color: #000000;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 18px;
 }
-
 #menu .container .menu-list__var {
   display: block;
   background-color: #f15a22;
@@ -115,56 +89,39 @@ header .container .adress i {
 #ofic .container .left {
   max-width: 370px;
 }
-
 #ofic .container .left .top {
   background-color: #1877ba;
   background-image: url(../img/omcm.png);
   background-position: right top;
   background-repeat: no-repeat;
 }
-
 #ofic .container .left .top p {
-  font-family: 'PFDinTextCondPro';
+  font-family: "PFDinTextCondPro";
   font-size: 30px;
   color: #ffffff;
   padding: 30px;
 }
-
 #ofic .container .left .bot {
   padding: 15px 30px;
 }
-
 #ofic .container .left .bot .list-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  align-items: center;
+  justify-content: flex-start;
   width: 100%;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 18px;
   margin-bottom: 20px;
 }
-
 #ofic .container .left .bot .list-item .wrapper {
   width: 45px;
   margin-right: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 #ofic .container .middle {
   max-width: 400px;
 }
-
 #ofic .container .middle .top {
   padding: 30px 30px 20px 30px;
   background-color: #e7e7e7;
@@ -172,66 +129,99 @@ header .container .adress i {
   background-position: right top;
   background-repeat: no-repeat;
 }
-
 #ofic .container .middle .top p {
-  font-family: 'PFDinTextCondPro';
+  font-family: "PFDinTextCondPro";
   font-size: 30px;
   font-weight: 500;
   color: #3f4a59;
   margin-bottom: 20px;
 }
-
 #ofic .container .middle .top span {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 17px;
   line-height: 25px;
   color: #405965;
 }
-
 #ofic .container .middle .top a {
   margin-top: 15px;
   display: block;
   text-decoration: none;
   line-height: 40px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 17px;
   color: #ffffff;
   padding: 0 15px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   background-color: #f15a22;
   border-radius: 5px;
 }
-
 #ofic .container .middle .bottom {
   padding: 60px 30px 30px 30px;
-  background: -webkit-gradient(linear, left top, right bottom, from(#1f82c1), to(#44bce4));
   background: linear-gradient(to bottom right, #1f82c1, #44bce4);
 }
-
 #ofic .container .middle .bottom .disc {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
-
 #ofic .container .middle .bottom .disc p {
-  font-family: 'PFDinTextCondPro';
+  font-family: "PFDinTextCondPro";
   font-size: 113px;
   color: #beedfc;
 }
-
 #ofic .container .middle .bottom .disc span {
-  font-family: 'PFDinTextCondPro';
+  font-family: "PFDinTextCondPro";
   font-size: 35px;
   color: #ffffff;
   line-height: 30px;
 }
+
+footer {
+  background: #e3e7ed;
+  padding: 90px 0px;
+  font-family: "Open Sans", sans-serif;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .foot-info p {
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-size: 15px;
+  color: #39424e;
+}
+footer .container .foot-links ul {
+  padding: 0;
+  margin: 0;
+}
+footer .container .foot-links ul li {
+  margin-bottom: 20px;
+}
+footer .container .foot-links ul li a {
+  font-size: 17px;
+  color: #39424e;
+  text-decoration: none;
+  font-weight: normal;
+}
+footer .container .foot-soc div {
+  margin-bottom: 20px;
+  color: #39424e;
+  font-size: 15px;
+}
+footer .container .foot-back {
+  display: flex;
+}
+footer .container .foot-back .phones a {
+  display: block;
+  text-decoration: none;
+}
+footer .container .foot-back button {
+  display: block;
+  color: #fff;
+  width: 265px;
+  height: 60px;
+  background: #f1602a;
+}
+
 /*# sourceMappingURL=style.css.map */
