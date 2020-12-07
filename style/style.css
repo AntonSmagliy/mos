@@ -532,6 +532,7 @@ header .container .adress i {
 
 #faq {
   background-color: #f4f7fc;
+  padding: 120px 0 100px 0;
 }
 
 #faq .container h4 {
@@ -542,6 +543,10 @@ header .container .adress i {
   margin-bottom: 32px;
 }
 
+#faq .container .faq-list__item {
+  margin-bottom: 10px;
+}
+
 #faq .container .faq-list__item-visible {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -549,12 +554,31 @@ header .container .adress i {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-color: #fff;
+  padding: 30px;
+  -webkit-box-shadow: 0px 2px 8px 0px gray;
+          box-shadow: 0px 2px 8px 0px gray;
+  border-radius: 8px;
+}
+
+#faq .container .faq-list__item-visible .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #faq .container .faq-list__item-visible .right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
 }
 
 #faq .container .faq-list__item-visible .right p {
@@ -562,5 +586,10 @@ header .container .adress i {
   font-size: 20px;
   font-weight: 700;
   color: #4a5667;
+}
+
+#faq .container .faq-list__item-visible .right i {
+  font-size: 75px;
+  margin-left: 110px;
 }
 /*# sourceMappingURL=style.css.map */
