@@ -234,6 +234,7 @@ header .container .wrapper {
 
 #ofic .container .left {
   max-width: 370px;
+  width: 100%;
 }
 
 #ofic .container .left .top {
@@ -244,7 +245,7 @@ header .container .wrapper {
 }
 
 #ofic .container .left .top p {
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   font-size: 30px;
   color: #ffffff;
   padding: 30px;
@@ -298,7 +299,7 @@ header .container .wrapper {
 }
 
 #ofic .container .middle .top .adm p {
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   font-size: 30px;
   font-weight: 500;
   color: #3f4a59;
@@ -332,7 +333,7 @@ header .container .wrapper {
   width: 50%;
   background: -webkit-gradient(linear, left top, right bottom, from(#e6ecf3), to(#bfc4cb));
   background: linear-gradient(to bottom right, #e6ecf3, #bfc4cb);
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   font-size: 30px;
   padding: 30px 20px 26px 30px;
   display: -webkit-box;
@@ -389,7 +390,7 @@ header .container .wrapper {
 }
 
 #ofic .container .middle .bottom .skid .disc p {
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   font-size: 113px;
   color: #beedfc;
 }
@@ -399,7 +400,7 @@ header .container .wrapper {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   font-size: 30px;
   color: #ffffff;
   line-height: 30px;
@@ -422,7 +423,7 @@ header .container .wrapper {
 }
 
 #ofic .container .middle .bottom .prover p {
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   font-size: 30px;
   color: #3f4a59;
   margin-bottom: 20px;
@@ -514,7 +515,7 @@ header .container .wrapper {
 }
 
 #schet .container h4 {
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   font-size: 40px;
   color: #405965;
   text-align: center;
@@ -534,7 +535,7 @@ header .container .wrapper {
 #schet .container .lica__item {
   width: 33.33333%;
   text-align: center;
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   font-size: 18px;
   line-height: 50px;
   background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#d8d8d8));
@@ -584,7 +585,7 @@ header .container .wrapper {
   bottom: 114px;
   left: 0;
   background-color: #dfe8f1;
-  font-family: 'PFDinDisplayPro';
+  font-family: 'PFDinTextCondPro-Medium';
   display: none;
 }
 
@@ -628,7 +629,7 @@ header .container .wrapper {
 
 #schet .container .prov-list__item .sch {
   color: #1b559e;
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   font-size: 23px;
   text-align: center;
   margin-bottom: 15px;
@@ -644,7 +645,7 @@ header .container .wrapper {
 }
 
 #schet .container .prov-list__item .price {
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -744,7 +745,7 @@ header .container .wrapper {
 }
 
 #gallery .container h4 {
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   font-size: 40px;
   text-align: center;
   color: #405965;
@@ -785,7 +786,7 @@ header .container .wrapper {
 }
 
 #faq .container h4 {
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   font-size: 40px;
   text-align: center;
   color: #405965;
@@ -878,7 +879,7 @@ header .container .wrapper {
 }
 
 #leave .container h4 {
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   font-size: 40px;
   text-align: center;
   color: #ffffff;
@@ -942,7 +943,7 @@ header .container .wrapper {
 }
 
 #order .container h4 {
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   font-size: 40px;
   text-align: center;
   color: #405965;
@@ -971,10 +972,11 @@ header .container .wrapper {
 }
 
 #order .container .wrapper .item p {
-  font-family: 'PFDinTextCondPro';
+  font-family: 'PFDinTextCondPro-Medium';
   font-size: 27px;
   text-align: center;
   margin-bottom: 20px;
+  color: #1b559e;
 }
 
 #order .container .wrapper .item span {
@@ -1069,7 +1071,7 @@ header .container .wrapper {
 
 #advantages .wrap-adv .advant-item .advant-item__info h6 {
   text-align: center;
-  font-family: 'PFDinTextCondPro', sans-serif;
+  font-family: 'PFDinTextCondPro-Medium', sans-serif;
   font-weight: normal;
   font-size: 50px;
   color: #ffffff;
@@ -1104,7 +1106,7 @@ header .container .wrapper {
 }
 
 #clients h5 {
-  font-family: 'PFDinTextCondPro', sans-serif;
+  font-family: 'PFDinTextCondPro-Medium', sans-serif;
   font-weight: normal;
   text-align: center;
   font-size: 40px;
@@ -1202,7 +1204,7 @@ header .container .wrapper {
 }
 
 #documents h5 {
-  font-family: 'PFDinTextCondPro', sans-serif;
+  font-family: 'PFDinTextCondPro-Medium', sans-serif;
   font-weight: normal;
   text-align: center;
   font-size: 40px;
@@ -1243,7 +1245,7 @@ header .container .wrapper {
 
 #documents .documents_wrap .doc_item .doc_head {
   margin-bottom: 20px;
-  font-family: 'PFDinTextCondPro', sans-serif;
+  font-family: 'PFDinTextCondPro-Medium', sans-serif;
   font-size: 27px;
   color: #1b559e;
   font-weight: normal;
@@ -1262,7 +1264,7 @@ header .container .wrapper {
 }
 
 #check h5 {
-  font-family: 'PFDinTextCondPro', sans-serif;
+  font-family: 'PFDinTextCondPro-Medium', sans-serif;
   font-weight: normal;
   text-align: center;
   font-size: 40px;
@@ -1299,7 +1301,7 @@ header .container .wrapper {
 }
 
 #contacts h5 {
-  font-family: 'PFDinTextCondPro', sans-serif;
+  font-family: 'PFDinTextCondPro-Medium', sans-serif;
   font-weight: normal;
   text-align: center;
   font-size: 40px;
@@ -1329,7 +1331,7 @@ header .container .wrapper {
 
 #contacts .contact-wrap .contact-item .contact-item__text .contact-item__head {
   font-size: 25px;
-  font-family: 'PFDinTextCondPro', sans-serif;
+  font-family: 'PFDinTextCondPro-Medium', sans-serif;
   font-weight: normal;
   color: #1b559e;
   margin-bottom: 10px;
