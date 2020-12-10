@@ -22,6 +22,84 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+.dpn {
+  display: none !important;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 500px;
+  z-index: 101;
+  background: #f4f7fc;
+  padding: 30px 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 4px 6px -1px grey;
+          box-shadow: 0px 4px 6px -1px grey;
+}
+
+.popup .closepop {
+  cursor: pointer;
+  position: absolute;
+  right: 3px;
+  top: 0;
+}
+
+.popup .closepop i {
+  font-size: 30px;
+}
+
+.popup p {
+  font-family: 'PFDinTextCondPro-Medium';
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+  color: #1b559e;
+}
+
+.popup form {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  font-family: 'Open Sans';
+  font-size: 15px;
+}
+
+.popup form input {
+  line-height: 40px;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.popup form button {
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  max-width: 400px;
+  line-height: 40px;
+  border: none;
+  background: #f15a22;
+}
+
 #overlay {
   display: none;
   position: fixed;
@@ -773,11 +851,18 @@ header .container .wrapper {
 
 #gallery .container .gallery-wrapper .gallery-slider__item {
   max-height: 250px;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 #gallery .container .gallery-wrapper .gallery-slider__item img {
   display: block;
   margin: 0 auto;
+}
+
+#gallery .container .gallery-wrapper .gallery-slider__item:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #faq {

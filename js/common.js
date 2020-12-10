@@ -64,5 +64,29 @@ $('.close').click(function() {
 $('.burger').click(function() {
     $('.mobile-menu').toggleClass('dpb');
     $('#overlay').toggleClass('dpb');
-    $(this).toggleClass('burger-active')
+    $(this).toggleClass('burger-active');
+    $('body').toggleClass('ovh');
+})
+
+$('.order').click(function() {
+    $('.popup').toggleClass('dpb');
+    $('#overlay').toggleClass('dpb');
+    $('body').toggleClass('ovh');
+    $('.burger').toggleClass('dpn')
+
+})
+$('.order-lgot').click(function() {
+    $('.popup').toggleClass('dpb');
+    $('body').toggleClass('ovh');
+    $('#overlay').toggleClass('dpb');
+    $('.burger').toggleClass('dpn')
+
+})
+$('.closepop').click(function(e) {
+    $('body').toggleClass('ovh');
+    e.preventDefault();
+    $('.popup').toggleClass('dpb');
+    $('#overlay').toggleClass('dpb');
+    $('.burger').toggleClass('dpn')
+
 })
