@@ -68,14 +68,16 @@ $('.burger').click(function() {
     $('body').toggleClass('ovh');
 })
 
-$('.order').click(function() {
+$('.order').click(function(e) {
+    e.preventDefault();
     $('.popup').toggleClass('dpb');
     $('#overlay').toggleClass('dpb');
     $('body').toggleClass('ovh');
     $('.burger').toggleClass('dpn')
 
 })
-$('.order-lgot').click(function() {
+$('.order-lgot').click(function(e) {
+    e.preventDefault();
     $('.popup').toggleClass('dpb');
     $('body').toggleClass('ovh');
     $('#overlay').toggleClass('dpb');
