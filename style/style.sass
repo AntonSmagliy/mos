@@ -10,7 +10,69 @@ h1, h2, h3, h4, h5, h6
 
 .dpb
     display: block!important
+.ovh
+    overflow: hidden
 
+
+#overlay
+    display: none
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0,0,0,.7)
+    z-index: 100
+    
+.mobile-menu
+    display: none
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    z-index: 101
+    ul
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        li
+            a
+                text-align: center
+                display: block
+                padding: 10px 10px
+                text-decoration: none
+                color: #ffffff
+                font-family: 'Open Sans'
+                font-size: 16px  
+.burger
+    position: fixed
+    top: 30px
+    right: 30px
+    z-index: 101
+    cursor: pointer
+    display: none
+    span
+        display: block
+        height: 5px
+        width: 30px
+        border-radius: 2px
+        margin-bottom: 4px
+        background-color: #1877ba
+        transition: .3s
+        border: 1px solid #ffffff
+        &:last-child
+            margin-bottom: 0
+
+.burger-active
+    span
+        &:first-child
+            transform: rotate(45deg)
+        &:last-child
+            transform: rotate(-45deg)
+            margin-top: -8px
+        &:nth-child(2)
+           display: none 
 
 header
     background-color: #5b6778
@@ -960,6 +1022,8 @@ footer
         
 
 @media screen and ( max-width: 1160px )
+    .burger
+        display: block
     #documents .documents_wrap .doc_item
         padding: 20px
     #advantages .wrap-adv .adv-offer
@@ -1062,12 +1126,7 @@ footer
 
 @media screen and ( max-width: 630px )
     #clients .slider-clients .clientsArrows
-        top: 100%
-        transform: none
-        left: 45%
-    #clients .slider-clients .clientsNextArrow
-        left: inherit
-        right: 45%   
+        display: none!important 
     #gallery .container .gallery-wrapper .gallery-slider .galleryArrows
         display: none!important
     

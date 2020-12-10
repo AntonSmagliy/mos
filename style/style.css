@@ -18,6 +18,95 @@ h1, h2, h3, h4, h5, h6 {
   display: block !important;
 }
 
+.ovh {
+  overflow: hidden;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 101;
+}
+
+.mobile-menu ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile-menu ul li a {
+  text-align: center;
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+
+.burger {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 101;
+  cursor: pointer;
+  display: none;
+}
+
+.burger span {
+  display: block;
+  height: 5px;
+  width: 30px;
+  border-radius: 2px;
+  margin-bottom: 4px;
+  background-color: #1877ba;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border: 1px solid #ffffff;
+}
+
+.burger span:last-child {
+  margin-bottom: 0;
+}
+
+.burger-active span:first-child {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.burger-active span:last-child {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  margin-top: -8px;
+}
+
+.burger-active span:nth-child(2) {
+  display: none;
+}
+
 header {
   background-color: #5b6778;
   color: #cccccc;
@@ -1435,6 +1524,9 @@ footer .container .foot-back a {
 }
 
 @media screen and (max-width: 1160px) {
+  .burger {
+    display: block;
+  }
   #documents .documents_wrap .doc_item {
     padding: 20px;
   }
@@ -1627,14 +1719,7 @@ footer .container .foot-back a {
 
 @media screen and (max-width: 630px) {
   #clients .slider-clients .clientsArrows {
-    top: 100%;
-    -webkit-transform: none;
-            transform: none;
-    left: 45%;
-  }
-  #clients .slider-clients .clientsNextArrow {
-    left: inherit;
-    right: 45%;
+    display: none !important;
   }
   #gallery .container .gallery-wrapper .gallery-slider .galleryArrows {
     display: none !important;

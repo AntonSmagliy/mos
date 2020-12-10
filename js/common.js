@@ -61,3 +61,8 @@ $('.chto').click(function(e) {
 $('.close').click(function() {
     $(this).parent().toggleClass('dpb')
 })
+$('.burger').click(function() {
+    $('.mobile-menu').toggleClass('dpb');
+    $('#overlay').toggleClass('dpb');
+    $(this).toggleClass('burger-active')
+})
