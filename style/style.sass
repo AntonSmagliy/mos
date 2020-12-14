@@ -221,6 +221,7 @@ header
                             display: flex
                             justify-content: center
         .middle
+            position: relative
             .top
                 display: flex
                 .adm
@@ -283,8 +284,17 @@ header
                 display: flex
                 .skid
                     width: 50%
-                    padding: 60px 20px 42px 20px
+                    padding: 60px 5px 42px 20px
                     background: #44bde5
+                    position: relative
+                    &::after
+                        content: ''
+                        width: 1px
+                        height: 100%
+                        background-color: #6cc8e8
+                        position: absolute
+                        right: 0
+                        top: 0
                     .disc 
                         display: flex 
                         align-items: center
@@ -342,6 +352,10 @@ header
                             margin-top: 10px
             .hidden
                 display: none
+                width: 50%
+                left: 50%
+                top: 0
+                position: absolute
                 height: 100%
                 background-image: url(../img/rifon.png)
                 background-size: cover
@@ -363,6 +377,7 @@ header
                         margin-bottom: 10px
                         padding-left: 23px
 
+    
 #kto
     padding: 55px 0
     .container
@@ -388,6 +403,7 @@ header
             margin-top: 35px
             margin-bottom: 45px
             &__item
+                cursor: pointer
                 width: 33.33333%
                 text-align: center
                 font-family: 'PFDinTextCondPro-Medium'
@@ -791,11 +807,11 @@ header
         .clientsArrows
             position: absolute
             top: 50%
-            left: -15px
+            left: -40px
             transform: translateY(-50%)
         .clientsNextArrow
             left: inherit
-            right: -15px
+            right: -40px
     .slick-track
         padding: 20px 0px
     .client-item
@@ -1050,6 +1066,12 @@ footer
 
 
 //MEDIA QUERIES
+@media screen and ( max-width: 1266px )
+    #clients .slider-clients .clientsPrevArrow
+        left: -25px
+    #clients .slider-clients .clientsNextArrow
+        right: -25px
+
 @media screen and ( max-width: 1200px )
     #gallery .container .gallery-wrapper .gallery-slider .galleryArrows
         left: 5px
@@ -1154,6 +1176,12 @@ footer
         align-items: center
         .item
             margin-bottom: 20px
+
+@media screen and ( max-width: 900px )
+    #clients .slider-clients .clientsPrevArrow
+        left: -15px
+    #clients .slider-clients .clientsNextArrow
+        right: -15px
 
 @media screen and ( max-width: 850px )
     #documents .documents_wrap 

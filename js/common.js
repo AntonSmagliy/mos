@@ -92,3 +92,36 @@ $('.closepop').click(function(e) {
     $('.burger').toggleClass('dpn')
 
 })
+
+$('.adm').hover(function() {
+    if (window.innerWidth() > 1100) {
+        $('.hidden').toggleClass('dpb')
+    }
+})
+$('.skid').hover(function() {
+    if (window.innerWidth() > 1100) {
+        $('.hidden').toggleClass('dpb')
+    }
+})
+$('.hidden').hover(function() {
+    $('.hidden').toggleClass('dpb')
+})
+
+$('.fl').click(function() {
+    $('.lica__item').removeClass('lica__item-active')
+    $(this).addClass('lica__item-active')
+    $('.prov-list').addClass('dpn')
+    $('.fl-c').removeClass('dpn')
+})
+$('.ul').click(function() {
+    $('.lica__item').removeClass('lica__item-active')
+    $(this).addClass('lica__item-active')
+    $('.prov-list').addClass('dpn')
+    $('.ul-c').removeClass('dpn')
+})
+$('.yk').click(function() {
+    $('.lica__item').removeClass('lica__item-active')
+    $(this).addClass('lica__item-active')
+    $('.prov-list').addClass('dpn')
+    $('.yk-c').removeClass('dpn')
+})
