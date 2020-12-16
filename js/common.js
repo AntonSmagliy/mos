@@ -98,7 +98,7 @@ $('.adm').hover(function() {
         $('.hidden').toggleClass('dpb')
     }
 })
-$('.skid').hover(function() {
+$('.mosobl').hover(function() {
     if ($(window).width() > 1100) {
         $('.hidden').toggleClass('dpb')
     }
