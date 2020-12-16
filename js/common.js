@@ -125,3 +125,6 @@ $('.yk').click(function() {
     $('.prov-list').addClass('dpn')
     $('.yk-c').removeClass('dpn')
 })
+$('.gallery-slid').each(function(i, el) {
+    $(el).simpleLightbox();
+})

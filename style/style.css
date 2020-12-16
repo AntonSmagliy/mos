@@ -949,11 +949,6 @@ header .container .wrapper {
   margin: 0 auto;
 }
 
-#gallery .container .gallery-wrapper .gallery-slider__item:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 #faq {
   background-color: #f4f7fc;
   padding: 120px 0 100px 0;
