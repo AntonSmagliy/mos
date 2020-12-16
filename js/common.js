@@ -94,12 +94,12 @@ $('.closepop').click(function(e) {
 })
 
 $('.adm').hover(function() {
-    if (window.innerWidth() > 1100) {
+    if ($(window).width() > 1100) {
         $('.hidden').toggleClass('dpb')
     }
 })
 $('.skid').hover(function() {
-    if (window.innerWidth() > 1100) {
+    if ($(window).width() > 1100) {
         $('.hidden').toggleClass('dpb')
     }
 })

@@ -185,6 +185,8 @@ header
                 color: #ffffff!important
                 border-radius: 5px
 
+
+
 #ofic
     background-color: #f4f7fc
     padding-bottom: 70px
@@ -378,6 +380,61 @@ header
                         padding-left: 23px
 
     
+.oficInside
+    .container 
+        max-height: 230px
+        .left
+            .top
+                height: 100%!important
+                background-position: right bottom!important
+                background-size: contain
+        .middle 
+            .bottom 
+                .skid
+                    padding: 15px 30px!important
+                    span
+                        padding: 0!important
+                        padding-left: 20px!important
+                .prover
+                    padding: 5px 30px!important
+                    p
+                        margin-bottom: 5px!important
+                    form
+                        input
+                            margin-bottom: 5px!important
+
+#some
+    .container
+        .section-title  
+            font-family: 'PFDinTextCondPro-Medium'
+            font-size: 30px
+            margin-bottom: 25px
+            color: #5a6677
+        p
+            font-family: 'Open Sans'
+            font-size: 14px
+            text-align: justify
+            color: #5a6677
+
+
+#breadcrumbs
+    padding: 25px 0 
+    .container
+        ul
+            li
+                font-family: 'Open Sans'
+                font-size: 14px
+                display: inline
+                &::after
+                    content: '/'
+                    display: inline
+                    margin: 0 10px
+                &:last-child
+                    &::after
+                        display: none
+            .breadcrumbs-active
+                color: #3c90c8
+
 #kto
     padding: 55px 0
     .container
@@ -1080,6 +1137,8 @@ footer
     
 
 @media screen and ( max-width: 1100px )
+    .oficInside .container
+        max-height: 100%!important
     #ofic .container 
         flex-direction: column
         .left

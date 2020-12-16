@@ -590,6 +590,75 @@ header .container .wrapper {
   padding-left: 23px;
 }
 
+.oficInside .container {
+  max-height: 230px;
+}
+
+.oficInside .container .left .top {
+  height: 100% !important;
+  background-position: right bottom !important;
+  background-size: contain;
+}
+
+.oficInside .container .middle .bottom .skid {
+  padding: 15px 30px !important;
+}
+
+.oficInside .container .middle .bottom .skid span {
+  padding: 0 !important;
+  padding-left: 20px !important;
+}
+
+.oficInside .container .middle .bottom .prover {
+  padding: 5px 30px !important;
+}
+
+.oficInside .container .middle .bottom .prover p {
+  margin-bottom: 5px !important;
+}
+
+.oficInside .container .middle .bottom .prover form input {
+  margin-bottom: 5px !important;
+}
+
+#some .container .section-title {
+  font-family: 'PFDinTextCondPro-Medium';
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: #5a6677;
+}
+
+#some .container p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  text-align: justify;
+  color: #5a6677;
+}
+
+#breadcrumbs {
+  padding: 25px 0;
+}
+
+#breadcrumbs .container ul li {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  display: inline;
+}
+
+#breadcrumbs .container ul li::after {
+  content: '/';
+  display: inline;
+  margin: 0 10px;
+}
+
+#breadcrumbs .container ul li:last-child::after {
+  display: none;
+}
+
+#breadcrumbs .container ul .breadcrumbs-active {
+  color: #3c90c8;
+}
+
 #kto {
   padding: 55px 0;
 }
@@ -1603,6 +1672,9 @@ footer .container .foot-back a {
 }
 
 @media screen and (max-width: 1100px) {
+  .oficInside .container {
+    max-height: 100% !important;
+  }
   #ofic .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
