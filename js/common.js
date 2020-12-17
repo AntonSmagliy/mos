@@ -93,18 +93,22 @@ $('.closepop').click(function(e) {
 
 })
 
-$('.adm').hover(function() {
-    if ($(window).width() > 1100) {
-        $('.hidden').toggleClass('dpb')
-    }
-})
 $('.mosobl').hover(function() {
     if ($(window).width() > 1100) {
-        $('.hidden').toggleClass('dpb')
+        $('.hiddenoblast').toggleClass('dpb')
     }
 })
-$('.hidden').hover(function() {
-    $('.hidden').toggleClass('dpb')
+$('.hiddenoblast').hover(function() {
+    $('.hiddenoblast').toggleClass('dpb')
+})
+$('.adm').hover(function() {
+    if ($(window).width() > 1100) {
+        $('.hiddenokr').toggleClass('dpb');
+    }
+})
+
+$('.hiddenokr').hover(function() {
+    $('.hiddenokr').toggleClass('dpb')
 })
 
 $('.fl').click(function() {

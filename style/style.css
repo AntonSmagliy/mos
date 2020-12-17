@@ -553,7 +553,7 @@ header .container .wrapper {
   margin-top: 10px;
 }
 
-#ofic .container .middle .hidden {
+#ofic .container .middle .hiddenoblast {
   display: none;
   width: 50%;
   left: 50%;
@@ -565,7 +565,7 @@ header .container .wrapper {
   padding: 30px 30px 20px 30px;
 }
 
-#ofic .container .middle .hidden p {
+#ofic .container .middle .hiddenoblast p {
   font-size: 30px;
   font-family: 'PFDinTextCondPro';
   line-height: 30px;
@@ -573,7 +573,7 @@ header .container .wrapper {
   margin-bottom: 65px;
 }
 
-#ofic .container .middle .hidden ul {
+#ofic .container .middle .hiddenoblast ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -581,11 +581,48 @@ header .container .wrapper {
       flex-wrap: wrap;
 }
 
-#ofic .container .middle .hidden ul li {
+#ofic .container .middle .hiddenoblast ul li {
   font-family: 'Open Sans';
   font-size: 15px;
   color: #ffffff;
   width: 50%;
+  margin-bottom: 10px;
+  padding-left: 23px;
+}
+
+#ofic .container .middle .hiddenokr {
+  display: none;
+  width: 50%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: 100%;
+  background-image: url(../img/hidadm.png);
+  background-size: cover;
+  padding: 30px 30px 20px 30px;
+}
+
+#ofic .container .middle .hiddenokr p {
+  font-size: 30px;
+  font-family: 'PFDinTextCondPro';
+  line-height: 30px;
+  color: #beedfc;
+  margin-bottom: 75px;
+}
+
+#ofic .container .middle .hiddenokr ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#ofic .container .middle .hiddenokr ul li {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  color: #ffffff;
+  width: 100%;
   margin-bottom: 10px;
   padding-left: 23px;
 }
